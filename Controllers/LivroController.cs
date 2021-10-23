@@ -31,6 +31,7 @@ namespace Biblioteca.Controllers
         public IActionResult Listagem(string tipoFiltro, string filtro)
         {
             Autenticacao.CheckLogin(this);
+            
             FiltrosLivros objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
             {
@@ -41,6 +42,21 @@ namespace Biblioteca.Controllers
             LivroService livroService = new LivroService();
             return View(livroService.ListarTodos(objFiltro));
         }
+
+        /* public IActionResult Listagem(string tipoFiltro, string filtro)
+        {
+            Autenticacao.CheckLogin(this);
+
+            FiltrosLivros objFiltro = null;
+            if(!string.IsNullOrEmpty(filtro))
+            {
+                objFiltro = new FiltrosLivros();
+                objFiltro.Filtro = filtro;
+                objFiltro.TipoFiltro = tipoFiltro;
+            }
+            LivroService livroService = new LivroService();
+            return View(LivroService.ListarTodos(objFiltro));
+        } */
 
         public IActionResult Edicao(int id)
         {
