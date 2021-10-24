@@ -845,19 +845,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\Allana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\DESKTOP-DOGF8AI\\Arquivos compartilhados\\trabalhos UC07\\atv_02_UC07\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Allana\\Desktop\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "\\\\DESKTOP-DOGF8AI\\Arquivos compartilhados\\trabalhos UC07\\atv_02_UC07\\Biblioteca\\Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "\\\\DESKTOP-DOGF8AI\\Arquivos compartilhados\\trabalhos UC07\\atv_02_UC07\\Biblioteca\\obj\\",
+      "projectPath": "C:\\Users\\Allana\\Desktop\\Biblioteca\\Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\Allana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Allana\\Desktop\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Allana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -908,7 +908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
